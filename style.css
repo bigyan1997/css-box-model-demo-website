@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #444;
+    margin-bottom: 20px;
+}
+
+main {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.content {
+    flex: 2;
+    padding: 20px;
+    border: 2px solid #ddd;
+    margin: 10px 0;
+    background-color: #fff;
+}
+
+.sidebar {
+    flex: 1;
+    padding: 20px;
+    border: 2px solid #ddd;
+    margin: 10px 0;
+    background-color: #fff;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border: 2px solid #444;
+}
+
+/* Add padding, margin, and border styling to demonstrate Box Model */
+.box {
+    padding: 15px;
+    border: 3px solid #aaa;
+    margin: 10px 0;
+    background-color: #e3e3e3;
+}
